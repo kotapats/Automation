@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [dropbox-assessment]">
+  <parameter name="password" value="srav1@dropbox"/>
+  <parameter name="fileName" value="D:\Photos\Kotapati\DSC03215.jpg"/>
+  <parameter name="emailid" value="srav1k.587@gmail.com"/>
+  <parameter name="folderName" value="MyTestFolder"/>
+  <test name="LoginPage(failed)">
+    <parameter name="password" value="srav1@dropbox"/>
+    <parameter name="emailid" value="srav1k.587@gmail.com"/>
+    <classes>
+      <class name="DropBoxAutomation.Assessment.Tests.LoginPageTestCases">
+        <methods>
+          <include name="LaunchDropbox"/>
+          <include name="loginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- DropBoxAutomation.Assessment.Tests.LoginPageTestCases -->
+    </classes>
+  </test> <!-- LoginPage(failed) -->
+  <test name="HomePage(failed)">
+    <parameter name="fileName" value="D:\Photos\Kotapati\DSC03215.jpg"/>
+    <parameter name="folderName" value="MyTestFolder"/>
+    <classes>
+      <class name="DropBoxAutomation.Assessment.Tests.HomePageTestCases">
+        <methods>
+          <include name="logout"/>
+          <include name="createFolderTest" invocation-numbers="0"/>
+          <include name="uploadFileTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- DropBoxAutomation.Assessment.Tests.HomePageTestCases -->
+      <class name="DropBoxAutomation.Assessment.Tests.LoginPageTestCases">
+        <methods>
+          <include name="LaunchDropbox"/>
+        </methods>
+      </class> <!-- DropBoxAutomation.Assessment.Tests.LoginPageTestCases -->
+    </classes>
+  </test> <!-- HomePage(failed) -->
+</suite> <!-- Failed suite [dropbox-assessment] -->

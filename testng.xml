@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="dropbox-assessment">
+
+    <test name="LoginPage">
+		<parameter name="emailid" value="XXXXXXX" />
+		<parameter name="password" value="XXXXXXXX" />
+		<classes>
+	  		<class name="DropBoxAutomation.Assessment.Tests.LoginPageTestCases" />
+		</classes>
+		
+    </test>
+	<test name="HomePage">
+		<parameter name="folderName" value="MyTestFolder" />
+		<parameter name="fileName" value="XXXXXXXX" />
+		<classes>
+	  		<class name="DropBoxAutomation.Assessment.Tests.HomePageTestCases" />
+		</classes>		
+    </test>
+</suite>

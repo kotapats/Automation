@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="dropbox-assessment" duration-ms="87812" started-at="2018-11-27T03:02:19Z" finished-at="2018-11-27T03:03:47Z">
+    <groups>
+    </groups>
+    <test name="LoginPage" duration-ms="41587" started-at="2018-11-27T03:02:19Z" finished-at="2018-11-27T03:03:00Z">
+      <class name="DropBoxAutomation.Assessment.Tests.LoginPageTestCases">
+        <test-method status="PASS" signature="LaunchDropbox()[pri:0, instance:DropBoxAutomation.Assessment.Tests.LoginPageTestCases@59fa1d9b]" name="LaunchDropbox" is-config="true" duration-ms="20934" started-at="2018-11-27T08:32:19Z" finished-at="2018-11-27T08:32:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchDropbox -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:DropBoxAutomation.Assessment.Tests.LoginPageTestCases@59fa1d9b]" name="loginTest" duration-ms="19844" started-at="2018-11-27T08:32:40Z" finished-at="2018-11-27T08:33:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sravank.587@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[srav1@dropbox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- DropBoxAutomation.Assessment.Tests.LoginPageTestCases -->
+    </test> <!-- LoginPage -->
+    <test name="HomePage" duration-ms="45962" started-at="2018-11-27T03:03:01Z" finished-at="2018-11-27T03:03:47Z">
+      <class name="DropBoxAutomation.Assessment.Tests.HomePageTestCases">
+        <test-method status="PASS" signature="createFolderTest(java.lang.String)[pri:0, instance:DropBoxAutomation.Assessment.Tests.HomePageTestCases@146ba0ac]" name="createFolderTest" duration-ms="14845" started-at="2018-11-27T08:33:01Z" finished-at="2018-11-27T08:33:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MyTestFolder]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createFolderTest -->
+        <test-method status="PASS" signature="uploadFileTest(java.lang.String)[pri:0, instance:DropBoxAutomation.Assessment.Tests.HomePageTestCases@146ba0ac]" name="uploadFileTest" duration-ms="23435" started-at="2018-11-27T08:33:15Z" finished-at="2018-11-27T08:33:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D:\Photos\Kotapati\DSC03215.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadFileTest -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:DropBoxAutomation.Assessment.Tests.HomePageTestCases@146ba0ac]" name="logout" duration-ms="7672" started-at="2018-11-27T08:33:39Z" finished-at="2018-11-27T08:33:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- DropBoxAutomation.Assessment.Tests.HomePageTestCases -->
+    </test> <!-- HomePage -->
+  </suite> <!-- dropbox-assessment -->
+</testng-results>
